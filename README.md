@@ -1,4 +1,4 @@
-# SWG Library Management System
+# SWG x NovaLex Library Management System
 
 This is a **NovaLex Library Management System** built with **Next.js** as part of the interview task for the **Frontend Developer** role. The application allows users to browse books, borrow books, and manage their library account. It also includes role-based access control, where certain features (e.g., uploading books) are restricted to specific user roles.
 
