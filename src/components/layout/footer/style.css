@@ -1,0 +1,17 @@
+@import "../../../app/globals.css";
+
+.footer-section {
+  @apply bg-transparent dark:bg-black-light mt-5 md:mt-10 p-0 w-full;
+}
+
+.footer-section .container {
+  @apply justify-center;
+}
+
+.f-copyright {
+  @apply w-full py-5 text-center;
+}
+
+.f-copyright p {
+  @apply text-[12px] md:text-sm text-black dark:text-gray-300;
+}

@@ -1,0 +1,46 @@
+@import "../app/globals.css";
+
+/* Forgot Page Styles */
+.login-section {
+  @apply w-full h-full flex justify-center items-center;
+}
+
+.login-section .container {
+  @apply flex-col;
+}
+
+.login-section h1 {
+  @apply font-semibold;
+}
+
+.forgot-buttons {
+  @apply w-full flex flex-col gap-2;
+}
+
+.login-section .main-button button {
+  @apply w-full justify-center;
+}
+/* Forgot Page Styles end */
+
+.modal-overlay {
+  @apply fixed inset-0 bg-black-transparent flex justify-center items-center z-[999999];
+}
+
+.modal-overlay .auth-card {
+  @apply w-full max-w-72 1sm:max-w-80 md:max-w-96 text-center items-center;
+}
+
+.modal-overlay .auth-header {
+  @apply items-center;
+}
+
+.modal-overlay .main-button button {
+  @apply w-fit;
+}
+/* Set Password Page Styles end */
+
+/* Register Page Styles */
+.register-body {
+  @apply w-full flex flex-col gap-2 text-center;
+}
+/* Register Page Styles end */

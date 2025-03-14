@@ -1,0 +1,132 @@
+@import "../../../app/globals.css";
+
+.navbar {
+  @apply fixed w-full h-20 bg-transparent dark:bg-black-light-hover/50 backdrop-blur-[4px] flex justify-between items-center z-[999] transition-all duration-200 ease-in-out;
+}
+
+.logo {
+  @apply flex justify-start items-center w-1/2 lg:w-[30%];
+}
+
+.logo img {
+  @apply h-[32px] lg:h-[38px];
+}
+
+.lang-dropdown,
+.icon-lang {
+  @apply relative cursor-pointer flex items-center gap-4;
+}
+
+.icon-lang {
+  @apply gap-2;
+}
+
+.icon-lang svg {
+  @apply text-[18px];
+}
+
+/* Notifications styling */
+/* Notification Bell Icon */
+.notification-bell {
+  @apply relative flex items-center justify-center text-black-light-hover dark:text-gray-400;
+}
+
+.pulse {
+  @apply absolute -top-0.5 lg:top-0 right-0 lg:right-0.5 bg-white dark:bg-black-light-hover flex justify-center items-center w-2 h-2 rounded-full;
+}
+
+.pulse span {
+  @apply w-2 h-2 z-[999999] bg-red-normal rounded-full animate-pulse;
+}
+
+/* Notification Dropdown */
+.notification-dropdown {
+  @apply absolute right-0 mt-2 w-[300px] 1sm:w-[350px] flex flex-col gap-2 items-center bg-white rounded-lg shadow-lg dark:bg-black-light border border-gray-200 dark:border-black-light-hover;
+}
+
+.notification-header {
+  @apply w-full flex items-center justify-between p-4 border-b border-gray-normal dark:border-black-light-hover;
+}
+
+.notify-icon {
+  @apply flex items-center gap-2;
+}
+
+.notice-icon {
+  @apply bg-gray-normal-active dark:bg-black-light-hover flex items-center justify-center rounded-md px-1.5 py-1;
+}
+
+.notification-header h4 {
+  @apply text-black-light-hover dark:text-gray-200 font-semibold;
+}
+
+.notification-tabs {
+  @apply flex w-[90%] rounded-lg border border-gray-normal dark:border-black-light-hover;
+}
+
+.notification-tabs button {
+  @apply flex-1 p-2;
+}
+
+.notification-tabs button.active {
+  @apply border-3 border-black-light-hover rounded-lg font-semibold dark:text-gray-200;
+}
+
+.notification-tabs button.inactive {
+  @apply text-gray-500 dark:text-gray-400;
+}
+
+.notification-list {
+  @apply max-h-72 overflow-y-auto custom-scrollbar w-full;
+}
+
+.notification-item {
+  @apply p-4 border-b border-gray-normal dark:border-black-light-hover flex items-start gap-3;
+}
+
+.notification-icon {
+  @apply relative;
+}
+
+.notification-icon div {
+  @apply flex items-center justify-center p-2 bg-gray-200 dark:bg-black-light-hover rounded-full;
+}
+
+.notification-icon svg {
+  @apply stroke-2 text-black-light dark:text-gray-normal-active text-[26px];
+}
+
+.notification-icon .unread-dot {
+  @apply absolute -top-2 -right-2.5 text-blue-normal dark:text-gray-normal-active text-3xl;
+}
+
+.notify-body,
+.notify-text {
+  @apply flex flex-col gap-2;
+}
+
+.notify-text h4 {
+  @apply text-black-light dark:text-white font-semibold;
+}
+
+.notify-text p {
+  @apply text-sm text-gray-500 dark:text-white;
+}
+
+.notify-text span {
+  @apply text-xs text-gray-400;
+}
+
+.notification-actions {
+  @apply flex gap-1;
+}
+
+.notification-footer {
+  @apply w-full flex justify-between px-4 pb-3;
+}
+
+/* Date Line */
+.date-line {
+  @apply w-full px-4 py-2 text-sm text-gray-500 dark:text-gray-normal bg-gray-100 dark:bg-gray-dark;
+}
+/* Notifications styling ends */

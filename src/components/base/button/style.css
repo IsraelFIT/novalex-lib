@@ -1,0 +1,73 @@
+@import "../../../app/globals.css";
+
+/* Main Button Styling */
+.main-button button {
+  @apply w-fit text-white hover:font-semibold rounded-sm py-1.5 px-2 flex items-center justify-between transition-colors ease-in-out duration-300 text-xs md:text-sm cursor-pointer;
+}
+
+.main-button a {
+  @apply no-underline;
+}
+
+.main-button button svg,
+.secondary-button button svg {
+  @apply text-lg lg:text-xl text-white;
+}
+
+.main-button button:hover svg {
+  @apply text-white;
+}
+
+.button-content {
+  @apply flex items-center gap-2 h-full w-fit justify-between;
+}
+
+.button-text {
+  @apply font-semibold;
+}
+
+/* Spinner Styling */
+.button-spinner {
+  @apply w-4 h-4 border-2 border-gray border-t-2 border-t-white rounded-[50%] inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.transparent-button button,
+.link-button button {
+  @apply bg-transparent text-gray-dark dark:text-blue-light hover:text-blue-dark;
+}
+
+.transparent-button button svg {
+  @apply text-blue-light-active;
+}
+
+.transparent-button button:hover svg,
+.link-button button:hover svg {
+  @apply text-blue-dark dark:text-blue-light-active;
+}
+
+.link-button button {
+  @apply text-blue-dark underline;
+}
+
+.link-button button svg {
+  @apply text-blue-dark;
+}
+
+.set-lock button {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+.set-allowed button {
+  @apply cursor-pointer;
+}
+/* Main Button Styling ends */

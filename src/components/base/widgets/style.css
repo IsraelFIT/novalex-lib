@@ -1,0 +1,9 @@
+@import "../../../app/globals.css";
+
+.user-content {
+  @apply mt-4 w-full flex flex-col gap-2;
+}
+
+.user-content .main-button button {
+  @apply w-full justify-center;
+}

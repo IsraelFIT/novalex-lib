@@ -1,0 +1,68 @@
+@import "../app/globals.css";
+
+/* library Layout */
+.library-main {
+  @apply relative min-h-screen xl:flex;
+}
+
+.library-children {
+  @apply bg-white h-full xl:h-full dark:bg-black-light w-full;
+}
+/* library Layout ends */
+.library-section {
+  @apply h-screen xl:h-[unset];
+}
+
+.library-section .container {
+  @apply py-6 mx-0 max-w-full items-start border border-b border-transparent border-b-gray-200 dark:border-b-black-light-hover;
+}
+
+.library-info {
+  @apply w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-start xl:items-center text-center text-black dark:text-gray-300 border-gray-200 dark:border-black-light-hover divide-y md:divide-y-0 xl:divide-x divide-gray-200 dark:divide-black-light-hover;
+}
+
+.welcome-message {
+  @apply w-full flex flex-col items-center gap-4;
+}
+
+.welcome-message h1 {
+  @apply font-bold text-black-light dark:text-white;
+}
+
+.welcome-message span {
+  @apply text-blue-normal dark:text-blue-light-active;
+}
+
+.kbd {
+  @apply py-0.5 px-1 font-mono text-xs text-black-light dark:text-blue-light-active font-semibold;
+}
+
+.dash-boxes {
+  @apply flex py-4 px-5;
+}
+
+.dash-title {
+  @apply w-full flex flex-col gap-4 justify-end items-center;
+}
+
+.dash-title h4 {
+  @apply font-medium;
+}
+
+/* Tickets */
+.article-div {
+  @apply no-underline font-normal;
+}
+/* Tickets ends */
+
+/* Help Center */
+.books-section,
+.cart-section {
+  @apply py-4;
+}
+
+.books-section .container,
+.cart-section .container {
+  @apply flex-col gap-5;
+}
+/* Help Center end */

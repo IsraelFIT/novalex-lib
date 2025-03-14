@@ -1,0 +1,25 @@
+@import "../../../app/globals.css";
+
+.checkbox-container {
+  @apply flex items-center mb-4;
+}
+
+.checkbox-label {
+  @apply flex items-center gap-2 cursor-pointer;
+}
+
+.checkbox-icon {
+  @apply flex w-fit;
+}
+
+.checkbox-icon svg {
+  @apply text-lg;
+}
+
+.checkbox-icon .checked {
+  @apply text-blue-dark dark:text-blue-light-active border-blue-dark dark:border-blue-light-active;
+}
+
+.checkbox-icon .unchecked {
+  @apply text-gray-normal-active border-gray-normal-active;
+}

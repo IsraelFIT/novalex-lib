@@ -1,0 +1,19 @@
+@import "../../../app/globals.css";
+
+.preloader-section {
+  @apply fixed top-0 left-0 w-full h-full bg-gray-transparent backdrop-blur-[16px] flex items-center justify-center z-[999999999999];
+}
+
+.loader {
+  @apply w-10 h-10 rounded-[50%] inline-block border-4 border-solid border-gray-light border-b-blue box-border;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

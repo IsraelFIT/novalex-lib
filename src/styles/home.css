@@ -1,0 +1,21 @@
+@import "../app/globals.css";
+
+.login-section {
+  @apply w-full h-full flex justify-center items-center;
+}
+
+.login-section .container {
+  @apply flex-col mt-10;
+}
+
+.login-section h1 {
+  @apply font-semibold;
+}
+
+.login-section .main-button button {
+  @apply w-full justify-center;
+}
+
+.pre-login {
+  @apply flex justify-between;
+}

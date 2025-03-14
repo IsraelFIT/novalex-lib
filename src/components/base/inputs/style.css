@@ -1,0 +1,157 @@
+@import "../../../app/globals.css";
+
+/* Input Container */
+/* .input-container {
+  @apply mb-4;
+} */
+
+/* Label Wrapper */
+.input-label-wrapper {
+  @apply flex items-center gap-2 mb-2 text-black dark:text-gray-300;
+}
+
+/* Tooltip */
+.input-tooltip {
+  @apply relative cursor-pointer text-black dark:text-gray-300;
+}
+
+.input-tooltip-icon {
+  @apply inline-flex justify-center items-center w-[14px] h-[14px] rounded-full border border-white text-white text-center leading-3 text-[10px] font-medium;
+}
+
+.input-tooltip-text {
+  @apply invisible w-[200px] bg-black-light dark:bg-black-light-hover text-white dark:text-gray-normal text-center rounded-md p-2 absolute z-10 bottom-[125%] left-1/2 -ml-[100px] opacity-0 transition-opacity duration-300;
+}
+
+.input-tooltip:hover .input-tooltip-text {
+  @apply visible opacity-100;
+}
+
+/* Input Field */
+.input-input {
+  @apply w-full p-2 text-black dark:text-gray-300 border border-gray-200 dark:border-gray-800 rounded-sm focus:border-black-light-hover focus:ring-1 focus:ring-black-light-hover outline-none;
+}
+
+/* Select Field */
+.select-field {
+  @apply relative;
+}
+
+.input-select {
+  @apply appearance-none bg-transparent;
+}
+
+.css-1jqq78o-placeholder {
+  @apply !text-black dark:!text-gray-300;
+}
+
+.select-svg {
+  @apply absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 stroke-[12px] pointer-events-none;
+}
+
+/* Password Field */
+.password-field {
+  @apply relative;
+}
+
+.password-toggle {
+  @apply absolute right-2 top-1/2 transform -translate-y-1/2 bg-transparent border-none cursor-pointer p-0 flex items-center justify-center;
+}
+
+.password-toggle svg {
+  @apply text-gray text-base;
+}
+
+.password-toggle:hover svg {
+  @apply text-black-light dark:text-blue-light-active;
+}
+
+.phone-input-container {
+  @apply flex items-center border border-gray-300 rounded-md;
+}
+
+.phone-input {
+  @apply w-full px-3 py-2 text-black outline-none border-none;
+}
+
+.phone-input-container,
+.input-container .css-13cymwt-control,
+.input-container .react-tel-input .form-control {
+  @apply bg-transparent border border-gray-200 dark:border-gray-800;
+}
+
+.input-container .css-t3ipsp-control {
+  @apply text-black dark:text-black bg-transparent;
+}
+
+.input-container .css-1nmdiq5-menu option,
+.input-container .css-1dimb5e-singleValue,
+.input-container .react-tel-input .form-control {
+  @apply text-black dark:text-gray-300;
+}
+
+.input-container .css-1u9des2-indicatorSeparator {
+  @apply hidden;
+}
+
+.input-container .css-tj5bde-Svg {
+  @apply text-gray-500 fill-gray-500 stroke-gray-500 w-4 h-4;
+}
+
+.input-container .react-tel-input .form-control {
+  @apply w-full border-0 rounded-md;
+}
+
+.input-container .react-tel-input .flag-dropdown {
+  @apply bg-transparent dark:bg-blue-normal border-0 rounded-ss-md rounded-es-md;
+}
+
+.input-container .react-tel-input .country-list .search {
+  @apply z-10;
+}
+
+.input-container .react-tel-input .country-list .search {
+  @apply z-10;
+}
+
+.input-container .css-1nmdiq5-menu {
+  @apply custom-scrollbar;
+}
+
+/* Tiptap Editor Styles */
+.tiptap-editor {
+  @apply border border-gray-200 dark:border-gray-800 focus:border-blue-light-active rounded-md pt-2 px-2 pb-1 overflow-y-hidden;
+}
+
+.toolbar {
+  @apply flex mt-2 flex-wrap gap-0.5;
+}
+
+.toolbar button {
+  @apply bg-transparent hover:bg-white-light-active dark:hover:bg-blue-light-active border-0 cursor-pointer p-1.5 rounded-sm flex items-center justify-center;
+}
+
+.toolbar button.is-active {
+  @apply bg-blue-normal text-white dark:bg-blue-normal;
+}
+
+.toolbar svg {
+  @apply text-base md:text-lg text-black-light dark:text-white-light-active;
+}
+
+.toolbar span {
+  @apply text-xs;
+}
+
+.tiptap-editor li {
+  @apply list-disc;
+}
+
+.editor-content {
+  @apply min-h-[100px] outline-0;
+}
+
+.tiptap-editor .editor-content .ProseMirror {
+  @apply h-[100px] text-black-light dark:text-white-light-active overflow-y-auto p-1 outline-0;
+}
+/* Tiptap Editor styles ends */
