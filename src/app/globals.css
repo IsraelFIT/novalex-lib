@@ -114,7 +114,7 @@
   }
 
   body {
-    @apply font-primary flex flex-col min-h-screen bg-[url(/auth-assets/bkg-white.png)] dark:bg-[url(/auth-assets/bkg-dark.png)] bg-center bg-cover bg-no-repeat text-xs md:text-sm text-black dark:text-white custom-scrollbar;
+    @apply font-primary flex flex-col min-h-screen bg-[url(/auth-assets/bkg-white.png)] dark:bg-[url(/auth-assets/bkg-dark.png)] bg-center bg-cover bg-no-repeat text-sm md:text-base text-black dark:text-white custom-scrollbar;
   }
 
   main {
