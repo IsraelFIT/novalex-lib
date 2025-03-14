@@ -32,8 +32,11 @@ export default function RootLayout({
           property="og:description"
           content="The official Web Application for NovaLex Library"
         />
-        <meta property="og:image" content="https://yourwebsite.com/logo.png" />
-        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta
+          property="og:image"
+          content="https://novalex-lib.vercel.app/logo.png"
+        />
+        <meta property="og:url" content="https://novalex-lib.vercel.app/" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Meta Tags */}
@@ -42,10 +45,13 @@ export default function RootLayout({
           name="twitter:description"
           content="The official Web Application for NovaLex Library"
         />
-        <meta name="twitter:image" content="https://yourwebsite.com/logo.png" />
+        <meta
+          name="twitter:image"
+          content="https://novalex-lib.vercel.app/logo.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
 
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="https://novalex-lib.vercel.app/icon.png" />
       </head>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
